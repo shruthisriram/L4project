@@ -1,0 +1,25 @@
+{
+  "name":"test",
+  "description":"l4 project",
+  "main":"index.js",
+  "version":"1.0.0",
+  "scripts":{
+    "test":"jest",
+    "prepare":"husky install"
+  },
+  "author":"",
+  "license":"ISC",
+  "dependencies":{
+     "http":"^0.0.1-security",
+    "minimist":"^1.2.6",
+    "fs":"^0.0.1-security",
+    "process":"^0.11.10"
+  },
+  "devDependencies": {
+    "eslint":"^8.25.0",
+    "jest":"^29.1.2",
+    "lint-staged":"^13.0.3",
+    "husky":"^8.0.1",
+    "prettier":"^2.7.1"
+  }
+}
